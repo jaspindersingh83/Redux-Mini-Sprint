@@ -11,9 +11,16 @@ export const DECREMENT = 'DECREMENT';
 
 export const increment = () => {
    // Fill in this function 
+   return {
+       type:INCREMENT,  ///by convention all caps
+    //    payload: number
+   }    
 };
 
 
 export const decrement = () => {
    // Fill in this function 
+   return {
+    type:DECREMENT   ///by convention all caps
+    }
 };
